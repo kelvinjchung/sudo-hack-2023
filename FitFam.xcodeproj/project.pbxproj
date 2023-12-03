@@ -11,6 +11,7 @@
 		B6F204722B1C313300A7DCB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F204712B1C313300A7DCB0 /* ContentView.swift */; };
 		B6F204742B1C313300A7DCB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F204732B1C313300A7DCB0 /* Assets.xcassets */; };
 		B6F204772B1C313300A7DCB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6F204762B1C313300A7DCB0 /* Preview Assets.xcassets */; };
+		B6F204822B1C34A400A7DCB0 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F204812B1C34A400A7DCB0 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		B6F204712B1C313300A7DCB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B6F204732B1C313300A7DCB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B6F204762B1C313300A7DCB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6F204812B1C34A400A7DCB0 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		B6F2046E2B1C313300A7DCB0 /* FitFam */ = {
 			isa = PBXGroup;
 			children = (
-				B6F2046F2B1C313300A7DCB0 /* FitFamApp.swift */,
-				B6F204712B1C313300A7DCB0 /* ContentView.swift */,
+				B6F2047D2B1C32FB00A7DCB0 /* App */,
+				B6F2047E2B1C334800A7DCB0 /* Core */,
 				B6F204732B1C313300A7DCB0 /* Assets.xcassets */,
 				B6F204752B1C313300A7DCB0 /* Preview Content */,
 			);
@@ -65,6 +67,39 @@
 				B6F204762B1C313300A7DCB0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6F2047D2B1C32FB00A7DCB0 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B6F2046F2B1C313300A7DCB0 /* FitFamApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B6F2047E2B1C334800A7DCB0 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B6F204802B1C346400A7DCB0 /* TabBar */,
+				B6F2047F2B1C342C00A7DCB0 /* Root */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B6F2047F2B1C342C00A7DCB0 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				B6F204712B1C313300A7DCB0 /* ContentView.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		B6F204802B1C346400A7DCB0 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				B6F204812B1C34A400A7DCB0 /* MainTabView.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6F204722B1C313300A7DCB0 /* ContentView.swift in Sources */,
+				B6F204822B1C34A400A7DCB0 /* MainTabView.swift in Sources */,
 				B6F204702B1C313300A7DCB0 /* FitFamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
