@@ -47,7 +47,7 @@ struct MainTabView: View {
             Text("Account")
                 .tabItem {
                     VStack {
-                        // Need Image of accountholder here
+                        Image("user")
                         Text("Account")
                     }
                 }
